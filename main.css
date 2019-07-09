@@ -1,0 +1,27 @@
+button {
+    background: rgb(27, 121, 228);
+    font-size: 20px;
+    color: white;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px 100px 100px;
+    grid-column-gap: 1px;
+    grid-row-gap: 1px;
+}
+
+.clear {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.result {
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
